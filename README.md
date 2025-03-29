@@ -3,15 +3,15 @@ Sparkling Cursor adalah efek kursor interaktif yang menampilkan berbagai bentuk 
 
 ## 🎮 Cara Penggunaan
 Tekan angka 1-9 atau 0 pada keyboard untuk mengganti bentuk partikel:
-1️⃣ ⚫ Bulat  
-2️⃣ 🔵 Lensa Cembung  
-3️⃣ 🔺 Segitiga  
-4️⃣ 🟦 Kotak  
-5️⃣ ⭐ Bintang  
-6️⃣ 💖 Hati  
-7️⃣ 🌙 Bulan Sabit  
-8️⃣ 🍃 Daun Hijau  
-9️⃣ 💧 Tetesan Air Biru  
+1️⃣ ⚫ Bulat
+2️⃣ 🔵 Lensa Cembung
+3️⃣ 🔺 Segitiga
+4️⃣ 🟦 Kotak
+5️⃣ ⭐ Bintang
+6️⃣ 💖 Hati
+7️⃣ 🌙 Bulan Sabit
+8️⃣ 🍃 Daun Hijau
+9️⃣ 💧 Tetesan Air Biru
 0️⃣ 🔄 Semua bentuk aktif  
 
 ## 🌟 Fitur Utama
