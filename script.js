@@ -184,11 +184,11 @@ function loop() {
 loop();
 
 const backgrounds = [
-    "background/Eridu%20View%20Night.png",
-    "background/Eridu%20City%20Night.png",
-    "background/Eridu%20Tower%20Entrance%20Night.png",
-    "background/Eridu%20Tower%20Inside%20Night.png",
-    "background/Eridu%20Tower%20Rooftop%20Night.png"
+    "background/Eridu View Night.png",
+    "background/Eridu City Night.png",
+    "background/Eridu Tower Entrance Night.png",
+    "background/Eridu Tower Inside Night.png",
+    "background/Eridu Tower Rooftop Night.png"
 ];
 
 let bgIndex = 0;
@@ -205,12 +205,12 @@ function changeBackground() {
     const nextIndex = (bgIndex + 1) % backgrounds.length;
 
     if (activeBg === 1) {
-        bg2.style.backgroundImage = `url('${backgrounds[nextIndex]}')`;
+        bg2.style.backgroundImage = `url('${encodeURIComponent(backgrounds[nextIndex])}')`;
         bg2.style.opacity = 1; // Gambar baru fade-in
         bg1.style.opacity = 0; // Gambar lama fade-out
         activeBg = 2;
     } else {
-        bg1.style.backgroundImage = `url('${backgrounds[nextIndex]}')`;
+        bg1.style.backgroundImage = `url('${encodeURIComponent(backgrounds[nextIndex])}')`;
         bg1.style.opacity = 1;
         bg2.style.opacity = 0;
         activeBg = 1;
